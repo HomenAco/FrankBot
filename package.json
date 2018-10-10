@@ -1,0 +1,24 @@
+{
+  "name": "frank_bot",
+  "version": "1.0.0",
+  "description": "Bot desenvolvido para Habbop - Prisma Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Projeto Prisma - Eduardo Melo",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "html-to-image": "0.0.2",
+    "number-to-words": "^1.2.4",
+    "opusscript": "0.0.6",
+    "simple-youtube-api": "^5.0.2",
+    "util": "^0.11.0",
+    "yt-search": "^0.1.4",
+    "ytdl-core": "^0.25.2"
+  }
+}
