@@ -37,6 +37,7 @@ console.log(" Bot focado para Habbop hotel - By: Eduardo Melo");
                 n = 0;
             }
             client.user.setActivity(msgStatus, { type: typeStatus , url: 'http://twitch.tv/#'});
+            
 
         }, 1000);
     });
