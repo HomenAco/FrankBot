@@ -1,5 +1,5 @@
 <h1>Frank Open source</h1>
-<p> Open source por que?! bom... esse foi meu primeiro bot que eu fiz utilizando a libray e como não utilizo mais ele, decidi distribuir para vocês ter experiência e aprender algumas coisinhas legais, qualquer dúvida pode mande no servidor do franklin que irei estar respondendo qualquer dúvida 
+<p> Open source por que?! bom... esse foi meu primeiro bot que eu fiz utilizando a libray e como não utilizo mais ele, decidi distribuir para vocês ter experiência e aprender algumas coisinhas legais, qualquer dúvida pode mandar no servidor do franklin que irei estar respondendo qualquer dúvida 
 
 <h1>Desenvolvimento</h1>
 <p> Desenvolvido em JavaScript utilizando a libray <b>discord.js</b> versão 11.4.2 , bot privado focado somente em um servidor.</p>
