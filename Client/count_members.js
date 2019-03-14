@@ -7,36 +7,30 @@ module.exports = function(client)
     client.on('guildMemberAdd', guild => {
 
    
-        const num = `${client.guilds.get('419155099332640770').memberCount}`;     
-        var res  = num.split("");
-
-        var numeroFinal = '';
-
-        var numerosAtual = new Array();
-         for(var i = 0;i<res.length;i++)
-        {
-            numerosAtual[i] = converterNumero.toWords(res[i]);
-            numeroFinal += ":" + numerosAtual[i] + ":";
-        }
-  
-        const topico = client.channels.get('469193373647896586')
-        topico.setTopic(":heart: " + numeroFinal + " Habbopianos e " + "0 onlines no hotel <a:cachorropulando:449314700640124929>")
+        contadorMembros('id do seu servidor', 'id sa sua sala')// função contador de membros
     });
 
     client.on('guildMemberRemove', guild => {
 
-        const num = `${client.guilds.get('419155099332640770').memberCount}`;
-        var res = num.split("");
-        var numeroFinal = '';
-        var numerosAtual = new Array();
-        for (var i = 0; i < res.length; i++) {
-            numerosAtual[i] = converterNumero.toWords(res[i]);
-            numeroFinal += ":" + numerosAtual[i] + ":";
-        }
-
-        const topico = client.channels.get('469193373647896586')
-        topico.setTopic(":heart: " + numeroFinal + " Habbopianos e " + "0 onlines no hotel <a:cachorropulando:449314700640124929>")
+          
+        contadorMembros('id do seu servidor', 'id sa sua sala') // função contador de membros
     });
   
+    function contadorMembros(id_guild, id_sala)
+    {
+         // contador de membros
+         const num = `${client.guilds.get(id_guild).memberCount}`;     
+         var res  = num.split("");
+         var numeroFinal = '';
+         var numerosAtual = new Array();
+          for(var i = 0;i<res.length;i++)
+         {
+             numerosAtual[i] = converterNumero.toWords(res[i]);
+             numeroFinal += ":" + numerosAtual[i] + ":";
+         }
+   
+         const topico = client.channels.get(id_sala)
+         topico.setTopic(":heart: " + numeroFinal + " membros no servidor")
+    }
 }
 

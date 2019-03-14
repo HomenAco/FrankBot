@@ -5,25 +5,23 @@ const youtubeAPI = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 const queue = new Map();
 
-
 const client = new Discord.Client({ disableEveryone: true});
 
 
 // token do youtube api v3.0
-var tokenAPI = 'AIzaSyAU99WnDUEIwShY4hb7snW8pkIqqJDCzpQ';
+var tokenAPI = 'Token api simple-youtube-api';
 
 // webHook do Bot
-var idWebHook = "485199211609194516";
-var tokenWebHook = "zvmaJxwIaP2XFnZ93GgevP8hi8_pAdMXVIdKaFnaOFnvNLW0P0Jtm5e93b0KbkWUOJ2j";
-var tokenWelcome = "ar88cmFxqwg3PElhcT0uIj7xdZc8IiT9FGjyMLVo2KziEoA41nCy_HWJ_hjzSSDeih0x";
-var idWelcome = "485487560143929346";
+var tokenWelcome = "token webhook de dar boas vindas";
+var idWelcome = "id do webhook de dar boas vindas";
 // -----------------------------
 
-const youtube = new youtubeAPI(tokenAPI)
-const hook = new Discord.WebhookClient(idWebHook, tokenWebHook);
-const hookWelcome = new Discord.WebhookClient( idWelcome ,tokenWelcome);
+const youtube = new youtubeAPI(tokenAPI) // instancia da api do youtube
+const hookWelcome = new Discord.WebhookClient( idWelcome ,tokenWelcome); // instancia da webhook
+
+
 // token do bot
-var tokenDoBot = "NDcxMzAyNzI4ODI0Mzg5NjMy.Dji_2A.z-YosraiYxfmKqfOtcOgSpI5kzg";
+var tokenDoBot = "token do bot"; // token do bot
 
 
 

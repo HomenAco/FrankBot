@@ -40,13 +40,13 @@ module.exports = async function (client, comando, args, message, WebHook) {
             embed:{
                 title: `Informações do servidor`,
                 color: 0xff00f0,
-                description: `Servidor dedicado a eventos, notificações, promoções e suporte ao usuário do Habbop hotel, respeite as regras para que não seja tomada nenhuma previdência : `,
+                description: `Sobre o servidor texto aqui `,
                 thumbnail:{
                     url: `https://cdn.discordapp.com/attachments/456641846869884929/493542351222997002/a.png`
                 },
                 fields:[{
                     name: `Membros`,
-                    value: `🌎 ${client.guilds.get('419155099332640770').memberCount}`,
+                    value: `🌎 ${client.guilds.get('id do seu servidor').memberCount}`,
                     inline: true
                 },
         {
@@ -88,8 +88,8 @@ module.exports = async function (client, comando, args, message, WebHook) {
         ],
         footer:
         {
-            icon_url: `https://cdn.discordapp.com/attachments/456641846869884929/493467899428732959/dsadsadsa.png`,
-            text: `Habbop Hotel - Todos os direitos reservado` 
+            icon_url: `https://cdn.discordapp.com/avatars/332349931715166218/0bb910580b00811f0b3dab2683c85c13.png?size=2048`,
+            text: `Projeto desenvolvido por : *Eduardo#0001*` 
         },
         timestamp: new Date()
    

@@ -59,7 +59,6 @@ module.exports =   async function (client, comando, args, message, WebHook) {
                        fields: [{
                            name: `Lista de Comandos`,
                            value: `\`:avatar\` <@mention/null>  - Expandir seu avatar ou do membro que mencionar. \n
-            \`:piada\`  Chama o 4Queijos para contar umas piadas para você. \n
              \`:meme <tipo> <legenda>\` Adiciona meme com legenda \n
              \`:pai <mensagem>\` Chama pai do frank  para conversar\n`
                        }]
@@ -141,10 +140,6 @@ module.exports =   async function (client, comando, args, message, WebHook) {
              \`:mutar\` <@mention> <tempo/null> mutar o usuário com motivo ou indefinido.\n
              \`:aviso\` <@mention> <motivo> avisar o membro (limite de até 3 vezes) com motivo ou indefinido.\n
              \`:reportar\` <@mention> <motivo> reportar o membro com motivo \n
-              \`:cargo \`<@mention> <cargo>adicionar um usuário ao cargo\n
-              \`:rcargo \` <@mention> remover o cargo do usuário.\n
-                \`:dm \` <imagem/off> <message> Mandar alerta para todos os usuários.
-                 \`:pm \` <@mention> <mensagem> mandar mensagem para um membro específico. \n
                  \`:limpar \` <quantia> limpar de acordo com a quantia desejada no canal que está.
                  \`:help \` <mensagem> enviar uma ajuda para a equipe de suporte \n 
                    \`:iniciarvotacao \` <tempo> <mensagem> iniciar uma votação \n` 
