@@ -31,7 +31,7 @@ var inicializeCommand = require('./config/prefix');
 // comandos
 var prefix = ":";
 
-inicializeCommand(client, consign, prefix, hook, youtube, ytdl, Util, queue);
+inicializeCommand(client, consign, prefix,  youtube, ytdl, Util, queue);
 
 client.login(tokenDoBot)
 
